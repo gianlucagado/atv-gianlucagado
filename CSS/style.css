@@ -153,6 +153,8 @@ main div.segundo{
     padding-bottom: 20px;
     align-items: center;
     margin-bottom: 70px;
+
+    
     
 }
 
@@ -175,8 +177,9 @@ main section.terceiro h2{
     
 }
 main section.terceiro  div p{
-    margin-left: 50px;
+    margin-left: 30px;
     font-size: 20px;
+    padding: 10px;
     
 }
 footer{
@@ -195,4 +198,7 @@ footer ul{
 footer ul li{
     padding: 0 10px 0 10px;
     
+}
+main section.terceiro div {
+    text-align: left;
 }
