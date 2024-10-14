@@ -90,6 +90,9 @@ main{
 }
 main section.Products{
     background-color: #CBE4DE;
+    padding: 3vw 20vw 3vw 20vw;
+    
+    
     
 }
 main section.banner h1{
@@ -97,24 +100,98 @@ main section.banner h1{
     font-weight: bold;
     margin: 1vw 0 1vw 0;
     
+    
 }
+
 main section.banner p{
     font-size: 1.2rem;
     padding: 1vw 0 1vw 0;
+    padding-bottom: 2vw;
 
 }
 main section.Products h2 {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     padding: 1vw;
+}
+
+main h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+main section.Products span{
+    background-color: #EFEFEF;
+    padding: 10px;
+    border-radius: 80px;
+    font-size: 60px;
 }
 main section.Products ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
+    
 }
 main section.Products li{
     width: 30%;
     background-color: white;
-    margin: 10px;
+    border-radius: 30px;
+    margin: 40px 0 40px 0;
+    padding: 10px 5px 10px 5px;
+    font-size: 20px;
+
+   
+   
+    
+}
+main section.Products p{
+    padding-bottom: 55px;
+}
+main div.segundo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    align-items: center;
+    margin-bottom: 70px;
+    
+}
+
+main section.terceiro h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding: 20px;
+}
+main section.terceiro p{
+    padding-bottom: 30px;
+}
+main section.terceiro h2{
+   
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-left: 40px;
+    
+}
+main section.terceiro  div p{
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+footer{
+    background-color: #CBE4DE;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+footer h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    padding: 0 10px 0 10px;
+    
 }
