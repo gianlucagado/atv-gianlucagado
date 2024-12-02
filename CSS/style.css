@@ -79,6 +79,7 @@ header nav ul li{
     background-color: #0E8388;
     color: white;
     padding: 5px 10px 5px 10px;
+    margin: 0 0 0 5px;
     border-radius: 10px;
     display: inline-block;
 }
@@ -102,7 +103,10 @@ main section.banner h1{
     
     
 }
-
+section.banner img{
+    width: 80%;
+    max-width: 800px;
+}
 main section.banner p{
     font-size: 1.2rem;
     padding: 1vw 0 1vw 0;
@@ -202,3 +206,63 @@ footer ul li{
 main section.terceiro div {
     text-align: left;
 }
+
+
+
+/*/////////////////////////////RESPONSUVO/////////////////////////////////////////////////////////////////////////*/
+
+
+@media (max-width: 600px) {
+    header{
+        display: block;
+        text-align: center;
+    }
+    header nav ul li{
+        width: 40%;
+        
+    }
+    header nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header h1{
+        margin: 2vw;
+        font-size: 1.5rem;
+    }
+   main section.banner h1{
+        font-size: 1.6rem;
+    }
+    section.Products ul li{
+        width: 100%;
+    }
+    section.Products ul{
+        flex-wrap: wrap;
+        display: block;
+    }
+    
+
+    section.terceiro div{
+        display: block;
+        width: 100%;
+
+
+    
+    
+    }
+    section.terceiro img{
+        width: 100%;
+        justify-content: center;
+        padding: 5vw 0;
+    }
+    footer{
+        flex-wrap: wrap;
+
+    
+        
+    }
+    footer ul li{
+        padding: 2vw
+    }
+
+    }
+
