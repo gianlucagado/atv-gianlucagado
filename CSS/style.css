@@ -232,10 +232,10 @@ main section.terceiro div {
    main section.banner h1{
         font-size: 1.6rem;
     }
-    
+
     section.Products ul li{
         width: 100%;
-        display: block;
+        
     }
 
     section.Products ul{
@@ -258,7 +258,8 @@ main section.terceiro div {
 
     section.terceiro div{
         display: block;
-        width: 100%;
+        justify-content: center;
+        
 
 
     
