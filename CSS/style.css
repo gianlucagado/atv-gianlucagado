@@ -232,14 +232,29 @@ main section.terceiro div {
    main section.banner h1{
         font-size: 1.6rem;
     }
+    
     section.Products ul li{
         width: 100%;
-    }
-    section.Products ul{
-        flex-wrap: wrap;
         display: block;
     }
+
+    section.Products ul{
+        
+        display: block;
+    }
+
+
     
+   main section.Products h2{
+        font-size: 2.5rem;
+        padding-bottom: 2vw;
+    }
+    main section.Products p{
+        font-size: 1.2rem;
+    }
+    section.banner{
+        padding: 4vw;
+    }
 
     section.terceiro div{
         display: block;
@@ -249,11 +264,16 @@ main section.terceiro div {
     
     
     }
+    section.terceiro{
+        padding: 4vw
+    }
     section.terceiro img{
         width: 100%;
         justify-content: center;
         padding: 5vw 0;
-    }
+    
+        }
+
     footer{
         flex-wrap: wrap;
 
